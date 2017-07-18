@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">2Emme</string>
+
+    <string name="navigation_drawer_open">Apri il menu di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi il menu di navigazione</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_product_list">Prodotti</string>
+    <string name="title_product_detail"></string>
+    <string name="title_search">Cerca</string>
+    <string name="iban_text">Inserisci n° IBAN</string>
+    <string name="cc_text">Inserisci n° Carta</string>
+    <string name="paypal_text">Inserisci conto Paypal</string>
+    <string name="credits">Andrea Faggion &amp; Vladislav Bragoi</string>
+    <string name="credits_mat">VR401550 &amp; VR397344</string>
+</resources>

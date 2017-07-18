@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:minWidth="500dp">
+
+    <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:minWidth="500dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Spedizione"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow_vintage"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:text="Seleziona Metodo di Spedizione"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/posta_button"
+            android:layout_width="@dimen/corriere_size"
+            android:layout_height="@dimen/corriere_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_poste_italiane_logo"/>
+
+        <ImageButton
+            android:id="@+id/ups_button"
+            android:layout_width="@dimen/corriere_size"
+            android:layout_height="@dimen/corriere_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_ups_logo"/>
+
+        <ImageButton
+            android:id="@+id/bartolini_button"
+            android:layout_width="@dimen/corriere_size"
+            android:layout_height="@dimen/corriere_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_bartolini_logo"/>
+
+        <ImageButton
+            android:id="@+id/gls_button"
+            android:layout_width="@dimen/corriere_size"
+            android:layout_height="@dimen/corriere_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/background_light"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_gls_logo"/>
+
+        <TextView
+            android:id="@+id/prezzo_spedizione_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+        <TextView
+            android:id="@+id/prezzo_totale_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+        <Button
+            android:id="@+id/conferma_spedizione_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Continua"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/exit_spedizione_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Annulla"
+            android:textColor="@android:color/background_light"/>
+
+    </LinearLayout>
+</ScrollView>

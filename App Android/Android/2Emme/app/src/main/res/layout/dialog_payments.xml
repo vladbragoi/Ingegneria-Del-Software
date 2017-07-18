@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:minWidth="500dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:text="Seleziona modalità di pagamento"/>
+
+    <ImageButton
+        android:id="@+id/reg_iban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/background_light"
+        android:src="@mipmap/iban_logo"/>
+
+    <ImageButton
+        android:id="@+id/reg_carta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/background_light"
+        android:src="@mipmap/carta_logo"/>
+
+    <ImageButton
+        android:id="@+id/reg_paypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/background_light"
+        android:src="@drawable/paypal_logo"/>
+
+
+    <Button
+        android:id="@+id/pay_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Indietro"
+        android:textColor="@android:color/background_light"
+        android:textSize="16dp"/>
+
+</LinearLayout>

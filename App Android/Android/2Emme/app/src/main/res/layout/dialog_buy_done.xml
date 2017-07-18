@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:minWidth="500dp"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:paddingBottom="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Ordine confermato"
+        android:textAllCaps="true"
+        android:textColor="@color/yellow_vintage"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2Emme la ringrazia per l'acquisto"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"/>
+
+</LinearLayout>

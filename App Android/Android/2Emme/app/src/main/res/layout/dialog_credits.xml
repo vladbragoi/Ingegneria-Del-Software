@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:minWidth="500dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="36dp"
+        android:textColor="@android:color/background_light"
+        android:text="CREDITS"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="36dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/credits"
+        android:textColor="@color/yellow_vintage"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:elegantTextHeight="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="36dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/credits_mat"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@android:color/background_light"
+        android:text="Logout"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

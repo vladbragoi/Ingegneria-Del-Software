@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:minWidth="500dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation='vertical'
+        android:padding='10sp'
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="REGISTRATI"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Email"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_user_email'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Password"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_password'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width="match_parent"
+            android:layout_height='wrap_content'
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Conferma Password"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_password_second_time'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nome"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_name'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cognome"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_surname'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Codice Fiscale"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_cf'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Indirizzo"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_address'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:inputType="textMultiLine"
+            android:layout_height='wrap_content'/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Telefono"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id='@+id/reg_cell'
+            android:textColor="@color/yellow_vintage"
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'/>
+
+        <RelativeLayout
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'>
+
+            <Button
+                android:id='@+id/reg_continue'
+                android:layout_width="match_parent"
+                android:layout_height='wrap_content'
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="CONTINUA"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id='@+id/reg_exit'
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="ESCI"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

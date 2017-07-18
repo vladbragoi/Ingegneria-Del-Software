@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:enabled="true"
+        android:title="Catalogo">
+        <menu>
+            <item
+                android:id="@+id/visualizza_catalogo"
+                android:checkable="true"
+                android:icon="@drawable/ic_chrome_reader_mode_black_48px"
+                android:title="Visualizza Catalogo"/>
+            <item
+                android:title="Ordina per"
+                android:id="@+id/mod_visualizzazione"
+                android:checkable="true"
+                android:icon="@drawable/ic_view_list_black_48px"/>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/carrello"
+            android:icon="@drawable/ic_shopping_cart_black_48px"
+            android:title="Carrello"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_account_circle_black_48px"
+            android:title="Login | Registrati"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/impostazioni"
+            android:icon="@drawable/ic_settings_black_48px"
+            android:title="Impostazioni"
+            android:checkable="true"/>
+    </group>
+</menu>

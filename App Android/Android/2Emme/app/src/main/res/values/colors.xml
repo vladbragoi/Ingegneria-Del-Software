@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#417d80</color>
+    <color name="colorPrimaryDark">#36686b</color>
+    <color name="colorAccent">#daae81</color>
+    <color name="colorAuthor">#919191</color>
+    <color name="yellow_vintage">#dcb388</color>
+    <color name="lineColor">#c3d8d9</color>
+    <color name="red_error">#ff3c00</color>
+    <color name="colorUser">#6c9d9f</color>
+</resources>

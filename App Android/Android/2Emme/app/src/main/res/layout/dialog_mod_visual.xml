@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:minWidth="500dp"
+              android:orientation="vertical"
+              android:padding="10sp"
+              tools:context=".Controller.MainActivity">
+
+    <Button
+        android:id='@+id/button_titolo'
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height='wrap_content'
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Titolo"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id='@+id/button_autore'
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height='wrap_content'
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Autore"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id='@+id/button_prezzo'
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height='wrap_content'
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Prezzo"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textSize="16sp"/>
+
+</LinearLayout>
